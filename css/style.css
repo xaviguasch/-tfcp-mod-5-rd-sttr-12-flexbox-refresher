@@ -43,6 +43,13 @@ img {
   margin: 1em 0;
 }
 
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .col-1 {
   width: 20%;
 }
@@ -55,20 +62,16 @@ img {
   width: 70%;
 }
 
+@media (max-width: 600px) {
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 100%;
+  }
+}
+
 .col-bg {
   background: #212614;
   color: #fff;
   padding: 1em;
-}
-
-@media only screen and (max-width: 600px) {
-  .columns {
-    flex-direction: column;
-    align-items: center;
-  }
-  .col-1,
-  .col-2,
-  .col-3 {
-    width: 90%;
-  }
 }
