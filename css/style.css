@@ -1,7 +1,6 @@
 body {
   font-size: 1.125rem;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5em;
   margin: 0;
   color: #707070;
 }
@@ -23,7 +22,7 @@ h2 {
 }
 
 p {
-  margin: 1.5em 0;
+  margin-top: 0;
 }
 
 /* Layout */
@@ -40,15 +39,11 @@ img {
 
 .columns {
   display: flex;
+  margin: 1em 0;
 }
 
-.col {
-  margin: 1.5em 0;
-  margin-right: 2em;
-}
-
-.col-left {
-  background: #312614;
+.col-bg {
+  background: #212614;
   color: #fff;
-  padding: 1em;
+  padding: 0.5em;
 }
